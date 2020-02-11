@@ -1,0 +1,16 @@
+
+<div class="blog-content">
+    <div class="home">
+        <h2 class="post-list-heading">Mis Proyectos</h2>
+        <ul class="post-list">
+            <li *ngFor="let post of posts">
+                <span class="post-meta">{{post.created_at}}</span>
+                <h3>
+                    <a [routerLink]="['/post', post.id]">
+                       {{post.title}}
+                    </a>
+                </h3>
+            </li>
+        </ul>
+    </div>
+</div>

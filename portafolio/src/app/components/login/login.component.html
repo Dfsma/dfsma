@@ -1,0 +1,18 @@
+<div class="col-md-12 mt-3">
+<div class="login-content">
+    <form class="formulario" #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" class="form-control" #email="ngModel" [(ngModel)]="
+            user.email">
+        </div>
+
+        <div class="">
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" class="form-control" #password="ngModel"
+            [(ngModel)]="user.password" required>
+        </div>
+        <input type="submit" value="Identificarse" class="btn btn-success" [disabled]="loginForm.invalid">
+    </form>
+</div>

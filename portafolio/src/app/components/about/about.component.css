@@ -1,0 +1,22 @@
+
+div {
+    display: block;
+}
+.about-content {
+    position: relative;
+    max-width: 48rem;
+    padding: 2rem 1.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+   
+}

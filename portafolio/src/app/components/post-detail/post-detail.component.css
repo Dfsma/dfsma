@@ -1,0 +1,10 @@
+.post-detail-content{
+    position: relative;
+    max-width: 48rem;
+    padding: 2rem 1.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.post-detail-content h1, p{
+    text-align: center;
+}

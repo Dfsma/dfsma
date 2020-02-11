@@ -1,0 +1,6 @@
+
+<div class="post-detail-content" *ngIf="post">
+    <h1>{{post.title}}</h1>
+    <hr>
+    <p [innerHtml]="post.content"></p>
+</div>

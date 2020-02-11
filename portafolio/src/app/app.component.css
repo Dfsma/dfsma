@@ -1,0 +1,45 @@
+body{
+    font: 300 16px/1.5 "Roboto",sans-serif;
+    color: #332E30;
+    background-color: #fff;
+}
+
+header{
+    display: block;
+}
+
+nav {
+    display: block;
+}
+
+.site-header {
+    border-bottom: 1px solid #e8e8e8; /*Borde del header*/
+    text-align: center; /*Deja los textos centrado*/
+    padding: 1rem 0;
+}
+
+.site-header nav a {
+    color:black;
+    text-decoration: underline;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 3px;
+    font-weight: 800;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    text-decoration: none;
+    color: #424242;
+}
+.site-title:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
