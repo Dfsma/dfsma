@@ -1,6 +1,6 @@
 {
     "/api/*": {
-      "target": "https://laravelapiportafolio.000webhostapp.com",
+      "target": "",
       "secure": false,
       "logLevel": "debug",
       "changeOrigin": true
